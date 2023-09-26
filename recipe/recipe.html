@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Recipe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="round">
+       <h1>Add Recipe</h1>
+    <form action="/recipe/add" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" name="name" required><br>
+
+        <label for="description">Description:</label>
+        <input  name="description" required></input><br>
+
+        <label for="preparationTime">Pre Time:</label>
+        <input type="text" id="preparationTime" name="preparationTime" required><br>
+
+        <label for="cookingTime">Cook Time:</label>
+        <input type="text" id="cookingTime" name="cookingTime" required><br>
+
+        <label for="imageUrl">Image URL:</label>
+        <input type="text" id="imageUrl" name="imageUrl" required><br>
+
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" required><br>
+
+        <label for="veg">Veg:</label>
+        <input type="checkbox" id="veg" name="veg"><br>
+
+        <input type="submit" value="Add Recipe">
+    </form>
+   </div>
+</body>
+</html>
